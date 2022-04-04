@@ -1,0 +1,25 @@
+{
+  "name": "echelon-web-trainer",
+  "version": "1.0.0",
+  "description": "A React-based web training app for the Echelon Connect Sport spin bike.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "proxy": "http://localhost:3001",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timgilbertson/echelon-web-trainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timgilbertson/echelon-web-trainer/issues"
+  },
+  "homepage": "https://github.com/timgilbertson/echelon-web-trainer#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
