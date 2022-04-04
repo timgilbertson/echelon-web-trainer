@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./server
+      dockerfile: ./Dockerfile
+    ports:
+      - "3001:3001"
+  frontend:
+    build:
+      context: ./echelon-web-trainer
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    links:
+      - "backend"
