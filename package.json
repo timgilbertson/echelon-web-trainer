@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "A React-based web training app for the Echelon Connect Sport spin bike.",
   "main": "index.js",
+  "engines": {
+    "node": "your-node-version"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
   },
   "proxy": "http://localhost:3001",
   "repository": {
