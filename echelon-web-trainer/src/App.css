@@ -9,19 +9,19 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin 1 2s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: pink;
 }
 
 .App-link {
@@ -35,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-button {
+  display: block;
+  background: url(btn_strava_connectwith_orange@2x.png) no-repeat top;
+}
+
+.App-button:active {
+  background: url(btn_strava_connectwith_orange@2x.png) no-repeat bottom;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none
 }
